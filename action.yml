@@ -1,0 +1,16 @@
+name: Hello World
+description: Greet someone and record the time
+
+inputs:
+    name: # id of input
+    description: your name
+    required: true
+    default: crisda
+
+outputs:
+  greeting: # id of output
+    description: 'How are you!
+
+runs:
+  using: 'node20'
+  main: 'index.js'
